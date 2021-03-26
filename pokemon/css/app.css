@@ -1,0 +1,53 @@
+.content{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.btn {
+  width: 50vw;
+  cursor: pointer;
+  text-align: left;
+  border: none;
+  outline: none;
+  background-color: rgb(56, 56, 207);
+  color: aliceblue;
+  font-size: 1.5em;
+  padding: 4px 15px;
+}
+
+.accordion{
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  margin-left: 20px;
+}
+
+.accordion:hover {
+  background-color: rgb(39, 39, 141);
+}
+
+.child {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.child img {
+  height: 32vh;
+  width: auto;
+}
+
+/* Style buttons */
+.btn {
+  background-color: DodgerBlue; /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
